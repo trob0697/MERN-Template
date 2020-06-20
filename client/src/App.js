@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class App extends React.Component {
+class App extends React.Component {
   render() {
     return (
       <div style={{margin: 50,textAlign: "center", fontSize: 20}}>
@@ -10,3 +10,4 @@ export default class App extends React.Component {
   }
 }
 
+export default App;
